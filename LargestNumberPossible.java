@@ -6,12 +6,12 @@ class LargestNumberPossible{
 	public static void main(String[] args){
 		//Scanner in = new Scanner(System.in);
 		//int num = in.nextInt();
-		int[] num = {11,2,0};
+		int[] num = {2, 30, 56};
 		System.out.println(intArrayToLargeValue(num));
 		//System.out.println(numberSwapR(65));
 		
 	}
-		public static int intArrayToLargeValue(int[] arry){
+	public static int intArrayToLargeValue(int[] arry){
 			int result = 0;
 			for (int i = 0; i <arry.length; i++) { 
 			  for (int j = i+1; j <arry.length; j++) {     
